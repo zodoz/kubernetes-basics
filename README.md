@@ -1,6 +1,8 @@
 # kubernetes-basics
 Kubernetes presentation on the basics plus hands on
 
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/zodoz/kubernetes-basics/master?grs=github&t=white)
+
 ## Prereqs
 
 1. Create google cloud account
@@ -11,17 +13,31 @@ Kubernetes presentation on the basics plus hands on
 
 ## demos
 
+### Pod
 
-### Deployment
+`kubectl create -f services/01-hello-k8s/pod.yml`
 
-`kubectl create -f services/01-hello-k8s/deployment.yaml`
-
-`kubectl get pods` - yay, they're running, but how do I know its correct?
+`kubectl get pods` - yay, it looks like it's running, but how do I know
+it's running well?
 
     kubectl exec _____ -it -- bash
     apt-get update
     apt-get install curl
     curl localhost
+
+What if the pod stops running?
+
+`kubectl delete pod ...`
+
+### Deployment
+
+`kubectl create -f services/01-hello-k8s/deployment.yaml`
+
+How does this help?
+
+`kubectl delete pod ...`
+
+Now its still there!
 
 ### Service
 
