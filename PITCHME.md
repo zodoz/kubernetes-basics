@@ -1,10 +1,10 @@
 # Kubernetes Architecture
 ## and how to get stuff done
 
----?include=gitpitch/intro.md
+---?include=presentation/intro.md
 
----?include=gitpitch/archecture.md
+---?include=presentation/archecture.md
 
----?include=gitpitch/getting-stuff-done.md
+---?include=presentation/getting-stuff-done.md
 
----?include=gitpitch/outro.md
+---?include=presentation/outro.md
