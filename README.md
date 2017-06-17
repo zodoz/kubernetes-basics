@@ -1,7 +1,7 @@
 # kubernetes-basics
 Kubernetes presentation on the basics plus hands on
 
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/zodoz/kubernetes-basics/master?grs=github&t=white)
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/zodoz/kubernetes-basics/master)
 
 ## Prereqs
 
