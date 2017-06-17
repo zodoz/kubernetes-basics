@@ -3,7 +3,7 @@
 
 ---?include=presentation/intro.md
 
----?include=presentation/archecture.md
+---?include=presentation/architecture.md
 
 ---?include=presentation/getting-stuff-done.md
 
